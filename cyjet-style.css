@@ -1,0 +1,80 @@
+body {
+    background-image: url(1626178206_48-kartinkin-com-p-naruto-zadnii-fon-krasivo-57.png);
+    background-size: cover;
+}
+
+#menu ul {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    list-style: none;
+    margin-left: 10%;
+}
+
+#menu {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    z-index: 10;
+    background-color: rgba(160, 255, 242, 0.616);
+}
+
+
+#menu ul li a {
+    display: block;
+    padding: 9px 25px 0px 25px;
+    font-size: 13px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    height: 36px;
+    box-sizing: border-box;
+    color: white;
+}
+
+#menu ul li ul li a {
+    display: block;
+    text-transform: none;
+    height: auto;
+    padding: 7px 25px;
+    width: 100%;
+    box-sizing: border-box;
+    border-top: 1px solid black;
+    color: white;
+}
+
+#menu > ul::after {
+    display: block;
+    width: 100;
+    height: auto;
+    clear: both;
+    content: " ";
+}
+
+#menu ul li {
+    position: relative;
+    display: block;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+h2 {
+    margin: 0% 0% 0% -30%;
+    font-size: 30px;
+    color: rgb(59, 13, 65);
+}
+
+p {
+    margin-right: 35%;
+    font-size: 19px;
+    color: rgb(0, 0, 0);
+}
+
+h1 {
+    color: rgb(0, 45, 87);
+}
